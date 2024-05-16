@@ -1,0 +1,52 @@
+[
+    {
+      "ERROR_CODE": "NotFound",
+      "ERROR_DESCRIPTION": " * se ne nalazi u *",
+      "ERROR_HINT": "Proverite da li ste dobro uneli *"
+    },
+    {
+      "ERROR_CODE": "NotForeignKey",
+      "ERROR_DESCRIPTION": "Kolona * nije strani kljuc u tabeli *",
+      "ERROR_HINT": "Probajte da ne koristite * kolonu kao strani kljuc"
+    },
+    {
+      "ERROR_CODE": "BadQueryFormat",
+      "ERROR_DESCRIPTION": "Nema potrebna kljucna rec *",
+      "ERROR_HINT": "Molimo ubacite kljucnu rec *"
+    },
+    {
+      "ERROR_CODE": "BadOrder",
+      "ERROR_DESCRIPTION": "Ne sme biti * pre *",
+      "ERROR_HINT": "Izbacite *"
+    },
+    {
+      "ERROR_CODE": "BadAlias",
+      "ERROR_DESCRIPTION": "Alias * mora sadrzati navodnike",
+      "ERROR_HINT": "Probajte  *  "
+    },
+    {
+      "ERROR_CODE": "AgregationNotGroup",
+      "ERROR_DESCRIPTION": "* is not grouped",
+      "ERROR_HINT": "Try grouping *"
+    },
+    {
+      "ERROR_CODE": "BadWhere",
+      "ERROR_DESCRIPTION": "Cant write * after where",
+      "ERROR_HINT": "try removing *"
+    },
+    {
+      "ERROR_CODE": "BadType",
+      "ERROR_DESCRIPTION": "tip promenljive *",
+      "ERROR_HINT": "probajte da stavite da promenljiva * bude * tipa"
+    },
+    {
+      "ERROR_CODE": "NotUsed",
+      "ERROR_DESCRIPTION": "Promenljiva * se ne koristi",
+      "ERROR_HINT": "Izbrisite promenjljivu *"
+    },
+    {
+      "ERROR_CODE": "BadCSV",
+      "ERROR_DESCRIPTION": "Kolona * se ne nalazi u * tablei",
+      "ERROR_HINT": "Molimo importujte dobar csv fajl"
+    }
+  ]
